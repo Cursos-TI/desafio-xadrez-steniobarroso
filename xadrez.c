@@ -29,5 +29,20 @@ int main()
         contador++;
     } while (contador < 8);
 
+     // Movimento cavalo para baixo
+    printf("\n----------Movimento cavalo-----------\n");
+    contador = 0;
+    for (int i = 0; i < 1; i++)
+    {
+        do
+        {
+            printf("moveu-se para baixo\n");
+            contador++;
+        } while (contador < 2);
+        
+        printf("moveu-se para esquerda\n");
+        
+    }
+
     return 0;
 }
